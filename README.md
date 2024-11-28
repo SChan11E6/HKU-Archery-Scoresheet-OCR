@@ -32,6 +32,6 @@ click on
 ```
 install_packages_LinuxMac.sh
 ```
-![Download Interface](template/download_package.png?raw=false "Title")
+![Download Interface](template/download_package.png?raw=false "Download Interfac")
 ## 3. 
 ![Alt text](template/scoresheet_template.jpg?raw=true "Title")
