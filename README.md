@@ -53,6 +53,9 @@ The scanned scoresheet must be in .pdf format and the design of the grids should
 ![Scoresheet template](template/scoresheet_template.jpg?raw=true "Scoresheet template")
 
 #### Namelist
-The namelist must be in .xlsx format. It must have 4 columns:
+The namelist must be in .xlsx format and consists of only 1 worksheet. It must have 4 columns:
 - Target
+- Name
+- HKAA number
+- Club
 ![Namelist template](template/namelist_template.jpg?raw=true "Namelist template")
