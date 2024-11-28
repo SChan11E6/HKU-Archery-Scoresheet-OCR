@@ -70,4 +70,5 @@ Folder where you want the output excel to be put.
 
 ## 4. Press Proceed
 A green bar would run on the bottom of the pop-up window to show OCR progress. Once the bar finishes running, another pop-up window would tell you the recognition is done. Do not open the excel before this pop-up as the writing access might be restricted.
+
 Once the pop-up is closed, it will close the application as well.
