@@ -62,5 +62,8 @@ The namelist must be in .xlsx format and consists of only 1 worksheet. It must h
 ![Namelist template](template/namelist_template.png?raw=true "Namelist template")
 
 #### Round 1 Score
-Round 1 Score must be in .xlsx format. Just use the excel generated from round 1. If you insist on forging a round 1 scoresheet, the key point is including a worksheet 'Summary'.
+Round 1 Score must be in .xlsx format. Just use the excel generated from round 1. If you insist on forging a round 1 scoresheet, the key point is including a worksheet 'Summary'. A possible thing that might cause hiccups is that if you haven't opened the excel before, the formulae would not have calculated the scores, so the numbers would appear to be 0 in the new, round 2 score. So just open it.
 ![Round 1 Score template](template/round1score_template.pmg?raw=true "Round 1 Score template")
+
+#### Destination
+Folder where you want the output excel to be put.
