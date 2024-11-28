@@ -21,7 +21,17 @@ run_ocr_LinuxMac.sh
 requirements.txt
 resnet.pt
 ```
-## 2. Install required libraries by clicking `install_package_windows.bat` or `install_packages_LinuxMac.sh`
+## 2. Install required libraries
+#### For Windows
+click on
+```
+install_package_windows.bat
+```
+#### For Linux/MacOS
+click on
+```
+install_packages_LinuxMac.sh
+```
 
 ## 3. 
 ![Alt text](template/scoresheet_template.jpg?raw=true "Title")
