@@ -3,7 +3,7 @@ Accelerate score calculation process with AI
 
 Performance: TBA
 
-Installation Instruction:
+## Installation Instruction:
 
 1. [Downloading necessary files](#download-the-following-files-to-same-folder-location)
 
