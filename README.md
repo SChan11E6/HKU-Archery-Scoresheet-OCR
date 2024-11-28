@@ -43,6 +43,16 @@ Finished downloading. Click Close to end application
 > run_ocr_LinuxMac.sh
 
 First time starting it might take longer than usual as the model need to be loaded. Don't worry if the nothing seems to be happening. The window would pop up after at most 1 minute.
+
+## 4. What to upload
+The User Interface is shown below. Other than ***Scanned Scoresheet***, all other files are optional.
 ![OCR Interface](template/ocr_interface.png?raw=true "OCR Interface")
 
-![Alt text](template/scoresheet_template.jpg?raw=true "Title")
+#### Scanned Scoresheet
+The scanned scoresheet must be in .pdf format and the design of the grids should be similar. Multiple pages are allowed in the same PDF file. However, the order of scanning must be identical to the order participants are listed in Namelist (if any).
+![Scoresheet template](template/scoresheet_template.jpg?raw=true "Scoresheet template")
+
+#### Namelist
+The namelist must be in .xlsx format. It must have 4 columns:
+- Target
+![Namelist template](template/namelist_template.jpg?raw=true "Namelist template")
