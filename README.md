@@ -1,11 +1,18 @@
 # Archery-Scoresheet-OCR
 Accelerate score calculation process with AI
+
 Performance: TBA
+
 Installation Instruction:
+
 [Downloading necessary files](#download-the-following-files-to-same-folder-location)
+
 [Installing libraries](#click-to-install-required-libraries)
+
 [Run OCR](#click-to-run-ocr)
+
 [OCR required documents](#what-to-upload)
+
 [Expected results](#results)
 
 
