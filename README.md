@@ -45,7 +45,7 @@ Finished downloading. Click Close to end application
 First time starting it might take longer than usual as the model need to be loaded. Don't worry if the nothing seems to be happening. The window would pop up after at most 1 minute.
 
 ## 4. What to upload
-The User Interface is shown below. Other than ***Scanned Scoresheet***, all other files are optional.
+The User Interface is shown below. Other than ***Scanned Scoresheet***, uploads are optional.
 ![OCR Interface](template/ocr_interface.png?raw=true "OCR Interface")
 
 #### Scanned Scoresheet
@@ -60,3 +60,7 @@ The namelist must be in .xlsx format and consists of only 1 worksheet. It must h
 - Club
 
 ![Namelist template](template/namelist_template.png?raw=true "Namelist template")
+
+#### Round 1 Score
+Round 1 Score must be in .xlsx format. Just use the excel generated from round 1. If you insist on forging a round 1 scoresheet, the key point is including a worksheet 'Summary'.
+![Round 1 Score template](template/round1score_template.pmg?raw=true "Round 1 Score template")
