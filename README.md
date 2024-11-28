@@ -5,15 +5,15 @@ Performance: TBA
 
 Installation Instruction:
 
-[Downloading necessary files](#download-the-following-files-to-same-folder-location)
+1. [Downloading necessary files](#download-the-following-files-to-same-folder-location)
 
-[Installing libraries](#click-to-install-required-libraries)
+2. [Installing libraries](#click-to-install-required-libraries)
 
-[Run OCR](#click-to-run-ocr)
+3. [Run OCR](#click-to-run-ocr)
 
-[OCR required documents](#what-to-upload)
+4. [OCR required documents](#what-to-upload)
 
-[Expected results](#results)
+5. [Expected results](#results)
 
 
 # Steps to install
