@@ -20,9 +20,11 @@ Accelerate score calculation process with AI
 - resnet.pt
 
 ## 2. Click to install required libraries
-#### For Windows: install_package_windows.bat
+#### For Windows: 
+> install_package_windows.bat
 
-#### For Linux/MacOS: install_packages_LinuxMac.sh
+#### For Linux/MacOS: 
+> install_packages_LinuxMac.sh
 
 Download interface, click Download.
 ![Download Interface](template/download_package.png?raw=true "Download Interface")
@@ -33,14 +35,12 @@ What it looks like when downloading, might take a while.
 Finished downloading. Click Close to end application
 ![Finish Download](template/done_package.png?raw=true "Finish Download")
 
-## 3. Run OCR
+## 3. Click to Run OCR
 #### For Windows
-click on
 ```
 run_ocr_windows.bat
 ```
 #### For Linux/MacOS
-click on
 ```
 run_ocr_LinuxMac.sh
 ```
