@@ -19,17 +19,13 @@ Accelerate score calculation process with AI
 - requirements.txt
 - resnet.pt
 
-## 2. Install required libraries
+## 2. Click to install required libraries
 #### For Windows
-click on
-```
 install_package_windows.bat
-```
+
 #### For Linux/MacOS
-click on
-```
 install_packages_LinuxMac.sh
-```
+
 Download interface, click Download.
 ![Download Interface](template/download_package.png?raw=true "Download Interface")
 
