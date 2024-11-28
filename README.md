@@ -13,7 +13,7 @@ https://drive.google.com/file/d/1Hp74gLrOdXNIRWB_PxiqBxdl7QsSaKYi/view?usp=shari
 - ocr.cpython-312.pyc
 - run_ocr_windows.bat
 - requirements.txt
-- resnet.pt
+- resnet.pt (from Google Drive above)
 
 #### For Linux/MacOS
 - install_packages_bat.cpython-312.pyc
@@ -21,7 +21,7 @@ https://drive.google.com/file/d/1Hp74gLrOdXNIRWB_PxiqBxdl7QsSaKYi/view?usp=shari
 - ocr.cpython-312.pyc
 - run_ocr_LinuxMac.sh
 - requirements.txt
-- resnet.pt
+- resnet.pt (from Google Drive above)
 
 ## 2. Click to install required libraries
 #### For Windows: 
