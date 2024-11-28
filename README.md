@@ -43,5 +43,6 @@ Finished downloading. Click Close to end application
 > run_ocr_LinuxMac.sh
 
 First time starting it might take longer than usual as the model need to be loaded. Don't worry if the nothing seems to be happening. The window would pop up after at most 1 minute.
-![Download Interface](template/download_package.png?raw=true "Download Interface")
+![OCR Interface](template/ocr_interface.png?raw=true "OCR Interface")
+
 ![Alt text](template/scoresheet_template.jpg?raw=true "Title")
