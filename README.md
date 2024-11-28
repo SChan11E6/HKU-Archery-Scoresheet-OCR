@@ -32,9 +32,10 @@ click on
 ```
 install_packages_LinuxMac.sh
 ```
+Download interface, click Download
 ![Download Interface](template/download_package.png?raw=true "Download Interface")
-*Download interface, click Download*
+What it looks like when downloading, might take a while
 ![Downloading](template/downloading_package.png?raw=true "Downloading")
-*What it looks like when downloading, might take a while*
+
 ## 3. 
 ![Alt text](template/scoresheet_template.jpg?raw=true "Title")
