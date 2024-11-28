@@ -3,7 +3,7 @@ Accelerate score calculation process with AI
 
 Performance: 
 
-Hand Calculate: 53:10.83 for 26*4 archers = 30.681s per individual scoresheet
+Hand Calculate: 53:10.83/26*4 archers = 30.681s per individual scoresheet
 
 ## Installation Instruction:
 
