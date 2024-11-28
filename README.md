@@ -58,4 +58,5 @@ The namelist must be in .xlsx format and consists of only 1 worksheet. It must h
 - Name
 - HKAA number
 - Club
+
 ![Namelist template](template/namelist_template.png?raw=true "Namelist template")
