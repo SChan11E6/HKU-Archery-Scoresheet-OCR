@@ -3,6 +3,10 @@ Accelerate score calculation process with AI
 
 # Steps to install
 ## 1. Download the following files to same folder location
+Download ResNet weighting from
+```
+https://drive.google.com/file/d/1Hp74gLrOdXNIRWB_PxiqBxdl7QsSaKYi/view?usp=sharing
+```
 #### For Windows
 - install_packages_bat.cpython-312.pyc
 - install_packages_windows.bat
