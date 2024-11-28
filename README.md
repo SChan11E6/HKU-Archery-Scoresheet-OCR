@@ -37,11 +37,9 @@ Finished downloading. Click Close to end application
 
 ## 3. Click to Run OCR
 #### For Windows
-```
-run_ocr_windows.bat
-```
+> run_ocr_windows.bat
+
 #### For Linux/MacOS
-```
-run_ocr_LinuxMac.sh
-```
+> run_ocr_LinuxMac.sh
+
 ![Alt text](template/scoresheet_template.jpg?raw=true "Title")
