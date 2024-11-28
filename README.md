@@ -62,8 +62,7 @@ The namelist must be in .xlsx format and consists of only 1 worksheet. It must h
 ![Namelist template](template/namelist_template.png?raw=true "Namelist template")
 
 ### C. Round 1 Score
-Round 1 Score must be in .xlsx format. Just use the excel generated from round 1. If you insist on forging a round 1 scoresheet, the key point is including a worksheet 'Summary'. A possible thing that might cause hiccups is that if you haven't opened the excel before, the formulae would not have calculated the scores, so the numbers would appear to be 0 in the new, round 2 score. So just open it.
-![Round 1 Score template](template/round1score_template.png?raw=true "Round 1 Score template")
+Round 1 Score must be in .xlsx format. Just use the excel generated from round 1. If you insist on forging a round 1 scoresheet, the key point is including a worksheet 'Summary' (as shown in Results). A possible thing that might cause hiccups is that if you haven't opened the excel before, the formulae would not have calculated the scores, so the numbers would appear to be 0 in the new, round 2 score. So just open it.
 
 ### D. Destination
 Folder where you want the output excel to be put.
@@ -72,3 +71,15 @@ Folder where you want the output excel to be put.
 A green bar would run on the bottom of the pop-up window to show OCR progress. Once the bar finishes running, another pop-up window would tell you the recognition is done. Do not open the excel before this pop-up as the writing access might be restricted.
 
 Once the pop-up is closed, it will close the application as well.
+
+## 5. Results
+Most cells in the generated excel are not editable to prevent messing up with the formulae. If you wish to edit something, please copy and paste to another excel.
+### A. Ranking
+All archers ranked by score from highest to lowest. If 2 or more archers have the same score, their rankings are determined by Total 10+X then Total X. If you still see any archers having 2 or more places in Ranking, it would mean other people having same Total 10+X and Total X as them as well. Ask judge what to do.
+![Ranking template](template/Ranking.png?raw=true "Ranking template")
+### B. Summary
+All archers listed according to their target number, not sorted. This worksheet is essential for any 2nd round score calculations.
+![Summary template](template/round1score_template.png?raw=true "Summary template")
+### C. Individual Scoresheets
+The small scores are editable, the subtotals, totals, count of 10+X, and count of X will change accordingly.
+![Individual scoresheets template](template/output_scoresheet.png?raw=true "Individual scoresheets template")
