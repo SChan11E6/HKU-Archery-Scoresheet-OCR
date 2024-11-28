@@ -42,4 +42,6 @@ Finished downloading. Click Close to end application
 #### For Linux/MacOS
 > run_ocr_LinuxMac.sh
 
+First time starting it might take longer than usual as the model need to be loaded. Don't worry if the nothing seems to be happening. The window would pop up after at most 1 minute.
+![Download Interface](template/download_package.png?raw=true "Download Interface")
 ![Alt text](template/scoresheet_template.jpg?raw=true "Title")
