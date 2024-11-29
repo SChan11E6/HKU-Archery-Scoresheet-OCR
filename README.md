@@ -66,6 +66,7 @@ _P.S. If you trained another better model, rename it to <ins>**resnet.pt**</ins>
 - resnet.pt (from Google Drive above)
 
 ## 2. Click to install required libraries
+This application would automatically open a virtual environment for installing all required packages and running the OCR application.
 #### For Windows: 
 > install_package_windows.bat
 
