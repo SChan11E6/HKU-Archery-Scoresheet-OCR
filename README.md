@@ -113,6 +113,9 @@ Round 1 Score must be in .xlsx format. Just use the excel generated from round 1
 #### D. Destination
 Folder where you want the output excel to be put.
 
+#### E. Excluded digits
+Some target faces such as WA 6 RIng does not have the digits 1 to 4. By clicking on the corresponding digits to exclude them in the prediction, the accuracy could be increased. Excluded digits are shown in red, while the ones used are green.
+
 ## 4. Press Proceed
 A green bar would run on the bottom of the pop-up window to show OCR progress. Once the bar finishes running, the window will close itself, signifying the process has been completed. Do not open the excel when the progress bar is going, as the writing access might be restricted.
 
