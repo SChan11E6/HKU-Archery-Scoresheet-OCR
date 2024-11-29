@@ -4,6 +4,13 @@ Accelerate score calculation process with AI
 ## Performance: 
 
 ### Accuracy:
+Total 26 targets * 4 person per target = 104 scoresheets, 3744 cells to fill.
+
+6 scoresheets are empty (archer absent), so actually 98 scoresheets, 3528 cells.
+
+- Scoresheets that cannot be recognized: 2
+- Wrongly classified cells (excluding scoresheets that cannot be recognized): 658
+- Accuracy: 81.35%
 
 ### Speed:
 
@@ -34,6 +41,8 @@ Download ResNet weighting from
 ```
 https://drive.google.com/file/d/1Hp74gLrOdXNIRWB_PxiqBxdl7QsSaKYi/view?usp=sharing
 ```
+P.S. If you trained another better model, rename it to **resnet.pt** for use in this application. Just make sure the input image size is 28 x 28. 
+
 #### For Windows
 - install_packages_bat.cpython-312.pyc
 - install_packages_windows.bat
