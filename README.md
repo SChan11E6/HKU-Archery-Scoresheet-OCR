@@ -9,15 +9,15 @@ OCR Calculate: (0:36.60 (generate excel time) + 42:52.02 (manual checking)) / 26
 
 ## Installation Instruction:
 
-1. [Downloading necessary files](#download-the-following-files-to-same-folder-location)
+1. [Downloading necessary files](#1-download-the-following-files-to-same-folder-location)
 
-2. [Installing libraries](#click-to-install-required-libraries)
+2. [Installing libraries](#2-click-to-install-required-libraries)
 
-3. [Run OCR](#click-to-run-ocr)
+3. [Run OCR](#3-click-to-run-ocr)
 
-4. [OCR required documents](#what-to-upload)
+4. [OCR required documents](#4-what-to-upload)
 
-5. [Expected results](#results)
+5. [Expected results](#5-results)
 
 
 # Steps to install
