@@ -99,9 +99,7 @@ Round 1 Score must be in .xlsx format. Just use the excel generated from round 1
 Folder where you want the output excel to be put.
 
 ## 4. Press Proceed
-A green bar would run on the bottom of the pop-up window to show OCR progress. Once the bar finishes running, another pop-up window would tell you the recognition is done. Do not open the excel before this pop-up as the writing access might be restricted.
-
-Once the pop-up is closed, it will close the application as well.
+A green bar would run on the bottom of the pop-up window to show OCR progress. Once the bar finishes running, the window will close itself, signifying the process has been completed. Do not open the excel when the progress bar is going, as the writing access might be restricted.
 
 ## 5. Results
 Most cells in the generated excel are not editable to prevent messing up with the formulae. If you wish to edit something, please copy and paste to another excel.
