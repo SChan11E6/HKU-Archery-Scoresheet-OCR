@@ -41,7 +41,7 @@ Download ResNet weighting from
 ```
 https://drive.google.com/file/d/1Hp74gLrOdXNIRWB_PxiqBxdl7QsSaKYi/view?usp=sharing
 ```
-_P.S. If you trained another better model, rename it to **resnet.pt** for use in this application. Just make sure the input of your model is consistent with 28 x 28 fed in images._
+_P.S. If you trained another better model, rename it to <ins>**resnet.pt**</ins> for use in this application. Just make sure the input of your model is consistent with 28 x 28 fed in images._
 
 #### For Windows
 - install_packages_bat.cpython-312.pyc
