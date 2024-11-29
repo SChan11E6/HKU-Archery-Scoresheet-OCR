@@ -3,7 +3,9 @@ Accelerate score calculation process with AI
 
 Performance: 
 
-Hand Calculate: 53:10.83/26*4 archers = 30.681s per individual scoresheet
+Hand Calculate: 53:10.83 / 26 * 4 archers = 30.681s per individual scoresheet
+
+OCR Calculate: (0:36.60 (generate excel time) + 42:52.02 (manual checking)) / 26 * 4 archers = 25.083s per individual scoresheet
 
 ## Installation Instruction:
 
