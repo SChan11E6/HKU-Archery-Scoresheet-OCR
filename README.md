@@ -21,11 +21,12 @@ Total 26 targets * 4 person per target = 104 scoresheets, 3744 cells to fill.
 
 Hand Calculate: 53:10.83 / 26 * 4 archers = 30.681s per individual scoresheet
 
-OCR Calculate (without exclusion): (0:36.60 (generate excel time) + 42:52.02 (manual checking)) / 26 * 4 archers = 25.083s per individual scoresheet
+OCR Calculate: (0:36.60 (generate excel time) + 42:52.02 (manual checking)) / 26 * 4 archers = 25.083s per individual scoresheet
 
 Remarks: 
 - In reality, the 4 groups in each session (male and female, novice & beginner / intermediate & advance) would be calculated separately, so the OCR average time would be 6.27s per archer, which is roughly the same speed as hand calculating with 5 helpers.
 - The time of hand calculating each individual scoresheet is relatively constant. Whereas for OCR it deviates significantly between perfectly recognized scoresheets and those that cannot be recognized. Main reason of long calculating time for poorly recognized scoresheets is the need to punch in each individual number cuz the subtotal cells are locked.
+- Extending from the previous remark, the speed of calculation should increase slightly after applying exclusion of impossible digits.
 
 ## Installation Instruction:
 
