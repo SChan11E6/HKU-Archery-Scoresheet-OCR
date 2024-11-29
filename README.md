@@ -92,7 +92,7 @@ First time starting it might take longer than usual as the model need to be load
 
 ## 4. What to upload
 The User Interface is shown below. Other than ***Scanned Scoresheet***, uploads are optional. If you just want an empty spreadsheet that does the ranking automatically, upload corresponding number of empty scoresheets and just input subtotals or totals into the cells designated for individual score, there is no limit to what number can be inputted.
-
+![OCR Interface](template/ocr_interface.png?raw=true "OCR Interface")
 
 #### A. Scanned Scoresheet
 The scanned scoresheet must be in .pdf format and the design of the grids should be similar. Multiple pages are allowed in the same PDF file. However, the order of scanning must be identical to the order participants are listed in Namelist (if any).
