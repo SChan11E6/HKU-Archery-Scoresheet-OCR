@@ -43,11 +43,6 @@ Remarks:
 
 # Steps to install
 ## 1. Download the following files to same folder location
-Download ResNet weighting from
-```
-https://drive.google.com/file/d/1Hp74gLrOdXNIRWB_PxiqBxdl7QsSaKYi/view?usp=sharing
-```
-_P.S. If you trained another better model, rename it to <ins>**resnet.pt**</ins> for use in this application. Just make sure the input of your model is consistent with 28 x 28 fed in images._
 
 #### For Windows
 - install_packages_bat.cpython-312.pyc
@@ -55,7 +50,7 @@ _P.S. If you trained another better model, rename it to <ins>**resnet.pt**</ins>
 - ocr.cpython-312.pyc
 - run_ocr_windows.bat
 - requirements.txt
-- resnet.pt (from Google Drive above)
+- resnet.pt (from Google Drive below)
 
 #### For Linux/MacOS
 - install_packages_bat.cpython-312.pyc
@@ -63,7 +58,13 @@ _P.S. If you trained another better model, rename it to <ins>**resnet.pt**</ins>
 - ocr.cpython-312.pyc
 - run_ocr_LinuxMac.sh
 - requirements.txt
-- resnet.pt (from Google Drive above)
+- resnet.pt (from Google Drive below)
+
+Download ResNet weighting from
+```
+https://drive.google.com/file/d/1Hp74gLrOdXNIRWB_PxiqBxdl7QsSaKYi/view?usp=sharing
+```
+_P.S. If you trained another better model, rename it to <ins>**resnet.pt**</ins> for use in this application. Just make sure the input of your model is consistent with 28 x 28 fed in images._
 
 ## 2. Click to install required libraries
 This application would automatically open a virtual environment for installing all required packages and running the OCR application.
