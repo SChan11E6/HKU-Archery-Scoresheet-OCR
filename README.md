@@ -32,7 +32,7 @@ Remarks:
 
 Before any installation, please make sure your system has python 3.12.
 
-To check, open Terminal or Command Prompt, then type the following command.
+To check, open Terminal or Command Prompt, then run the following command.
 
 #### For Windows
 ```
@@ -48,9 +48,9 @@ https://www.python.org/downloads/
 ```
 1. [Downloading necessary files](#1-download-the-following-files-to-same-folder-location)
 
-2. [Installing libraries](#2-click-to-install-required-libraries)
+2. [Installing libraries](#2-install-required-libraries)
 
-3. [Run OCR](#3-click-to-run-ocr)
+3. [Run OCR](#3-run-ocr)
 
 4. [OCR required documents](#4-what-to-upload)
 
@@ -82,13 +82,20 @@ https://drive.google.com/file/d/1Hp74gLrOdXNIRWB_PxiqBxdl7QsSaKYi/view?usp=shari
 ```
 _P.S. If you trained another better model, rename it to <ins>**resnet.pt**</ins> for use in this application. Just make sure the input of your model is consistent with 28 x 28 fed in images._
 
-## 2. Click to install required libraries
-This application would automatically open a virtual environment for installing all required packages and running the OCR application.
+## 2. Install required libraries
+This application would automatically open a virtual environment for installing all required packages and running the OCR application. This step only needs to be done the first time starting the application. From second time onwards, just go from step 3.
 #### For Windows: 
-> install_package_windows.bat
+double click
+```
+install_package_windows.bat
+```
 
 #### For Linux/MacOS: 
-> install_packages_LinuxMac.sh
+Open Terminal in downloaded folder and run the following codes
+```
+chmod +x install_packages_LinuxMac.sh
+./install_packages_LinuxMac.sh
+```
 
 Download interface, click Download.
 ![Download Interface](template/download_package.png?raw=true "Download Interface")
@@ -99,12 +106,19 @@ What it looks like when downloading, might take a while.
 Finished downloading. Click Close to end application
 ![Finish Download](template/done_package.png?raw=true "Finish Download")
 
-## 3. Click to Run OCR
+## 3. Run OCR
 #### For Windows
-> run_ocr_windows.bat
+double click
+```
+run_ocr_windows.bat
+```
 
 #### For Linux/MacOS
-> run_ocr_LinuxMac.sh
+Open Terminal in downloaded folder and run the following codes
+```
+chmod +x run_ocr_LinuxMac.sh
+./run_ocr_LinuxMac.sh
+```
 
 First time starting it might take longer than usual as the model need to be loaded. Don't worry if the nothing seems to be happening. The window would pop up after at most 1 minute.
 
