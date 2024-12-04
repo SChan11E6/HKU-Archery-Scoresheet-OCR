@@ -42,7 +42,10 @@ py -3.12 --version
 ```
 python3,12 --version
 ```
-
+If you do not have python 3.12, download it from:
+```
+https://www.python.org/downloads/
+```
 1. [Downloading necessary files](#1-download-the-following-files-to-same-folder-location)
 
 2. [Installing libraries](#2-click-to-install-required-libraries)
