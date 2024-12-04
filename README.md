@@ -30,22 +30,8 @@ Remarks:
 
 ## Installation Instruction:
 
-Before any installation, please make sure your system has python 3.12.
+Before any installation, please [check](#check-python-version) that your system has python 3.12.
 
-To check, open Terminal or Command Prompt, then run the following command.
-
-#### For Windows
-```
-py -3.12 --version
-```
-#### For Linux/MacOS
-```
-python3,12 --version
-```
-If you do not have python 3.12, download it from:
-```
-https://www.python.org/downloads/
-```
 1. [Downloading necessary files](#1-download-the-following-files-to-same-folder-location)
 
 2. [Installing libraries](#2-install-required-libraries)
@@ -55,6 +41,8 @@ https://www.python.org/downloads/
 4. [OCR required documents](#4-what-to-upload)
 
 5. [Expected results](#5-results)
+   
+6. [Troubleshooting](#supplementary-information)
 
 
 # Steps to install
@@ -91,7 +79,7 @@ install_package_windows.bat
 ```
 
 #### For Linux/MacOS: 
-Open Terminal in downloaded folder and run the following codes
+[Open Terminal in downloaded folder](#open-terminal-in-file-location) and run the following codes
 ```
 chmod +x install_packages_LinuxMac.sh
 ./install_packages_LinuxMac.sh
@@ -114,7 +102,7 @@ run_ocr_windows.bat
 ```
 
 #### For Linux/MacOS
-Open Terminal in downloaded folder and run the following codes
+[Open Terminal in downloaded folder](#open-terminal-in-file-location) and run the following codes
 ```
 chmod +x run_ocr_LinuxMac.sh
 ./run_ocr_LinuxMac.sh
@@ -162,3 +150,63 @@ All archers listed according to their target number, not sorted. This worksheet 
 ### C. Individual Scoresheets
 The small scores are editable, the subtotals, totals, count of 10+X, and count of X will change accordingly.
 ![Individual scoresheets template](template/output_scoresheet.png?raw=true "Individual scoresheets template")
+
+# Supplementary information
+## Check python version
+To check, open Terminal or Command Prompt, then run the following command.
+
+#### For Windows
+```
+py -3.12 --version
+```
+#### For Linux/MacOS
+```
+python3,12 --version
+```
+If you do not have python 3.12, download it from:
+```
+https://www.python.org/downloads/
+```
+
+## Open Terminal in file location
+1. Right click name of current folder on Path Bar, then click 'Open In Terminal' option
+
+or
+
+2. Open Terminal from Launchpad, then run
+```
+cd path/to/folder
+```
+For example, if your downloaded file is at Desktop/Archery/code, then the command would be
+```
+cd Desktop/Archery/code
+```
+
+## What if some packages are missing
+#### For Windows
+[Open Terminal in downloaded folder](#open-terminal-in-file-location) and run the following codes
+```
+./archery_ocr/Scripts/activate # activates virtual environment
+pip install <package name>
+deactivate # exits virtual environment
+
+```
+
+#### For Linux/MacOS
+[Open Terminal in downloaded folder](#open-terminal-in-file-location) and run the following codes
+```
+source archery_ocr/bin/activate # activates virtual environment
+pip3 install <package name>
+deactivate # exits virtual environment
+```
+
+## Known issue
+For MacOS, `opencv-python` cannot be downloaded properly sometime through `install_packages_LinuxMac.sh` because of a module named `distutils` 
+
+To solve this, run
+```
+source archery_ocr/bin/activate # activates virtual environment
+pip3 install setuptools
+pip3 install opencv-python
+deactivate # exits virtual environment
+```
