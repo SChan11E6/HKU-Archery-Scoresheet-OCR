@@ -6,7 +6,7 @@ VENV_NAME="archery_ocr"
 VENV_PATH="${BASE_DIR}${VENV_NAME}"
 
 # Dynamically find Python executable using the py launcher
-PYTHON_EXEC="python3"  # You can also use "py" if installed
+PYTHON_EXEC="python3.12"  # You can also use "py" if installed
 
 # Create the virtual environment
 if [ -d "$VENV_PATH" ]; then

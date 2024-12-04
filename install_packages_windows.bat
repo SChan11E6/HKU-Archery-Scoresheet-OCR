@@ -6,7 +6,7 @@ set VENV_NAME=archery_ocr
 set VENV_PATH=%BASE_DIR%%VENV_NAME%
 
 REM Dynamically find Python executable
-set PYTHON_EXEC=py
+set PYTHON_EXEC=py -3.12
 
 if exist "%VENV_PATH%" (
     echo Virtual environment already exists at %VENV_PATH%.
