@@ -30,6 +30,10 @@ Remarks:
 
 ## Installation Instruction:
 
+Before any installation, please make sure your system has python 3.12.
+
+To check, open Terminal or Command Prompt, then type the following command.
+
 1. [Downloading necessary files](#1-download-the-following-files-to-same-folder-location)
 
 2. [Installing libraries](#2-click-to-install-required-libraries)
