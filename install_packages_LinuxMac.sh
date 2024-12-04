@@ -6,7 +6,7 @@ VENV_NAME="archery_ocr"
 VENV_PATH="${BASE_DIR}${VENV_NAME}"
 
 # Dynamically find Python executable using the py launcher
-PYTHON_EXEC="python3.12"  # You can also use "py" if installed
+PYTHON_EXEC="python3.10"  # You can also use "py" if installed
 
 # Create the virtual environment
 if [ -d "$VENV_PATH" ]; then
@@ -31,7 +31,7 @@ source "$VENV_PATH/bin/activate"
 PYTHON_EXEC="$VENV_PATH/bin/python"
 if [ -f "$PYTHON_EXEC" ]; then
     # Run the compiled bytecode file
-    python "$BASE_DIR/install_packages_bat.cpython-312.pyc"
+    python "$BASE_DIR/install_packages_bat.cpython-310.pyc"
 else
     echo "Python executable not found."
     exit 1
