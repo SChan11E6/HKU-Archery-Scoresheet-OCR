@@ -5,6 +5,6 @@ set PYTHON_EXEC=%VENV_PATH%\Scripts\pythonw.exe
 
 REM Check if the Python executable exists
 if exist "%PYTHON_EXEC%" (
-    start "" "%PYTHON_EXEC%" ocr.cpython-312.pyc
+    start "" "%PYTHON_EXEC%" ocr.cpython-310.pyc
 )
 exit

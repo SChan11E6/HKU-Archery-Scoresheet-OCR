@@ -6,13 +6,13 @@ set VENV_NAME=archery_ocr
 set VENV_PATH=%BASE_DIR%%VENV_NAME%
 
 REM Dynamically find Python executable
-set PYTHON_EXEC=py -3.12
+set PYTHON_EXEC=py -3.10
 
 if exist "%VENV_PATH%" (
     echo Virtual environment already exists at %VENV_PATH%.
 ) else (
     echo Creating virtual environment...
-    "%PYTHON_EXEC%" -m venv "%VENV_PATH%"
+    %PYTHON_EXEC% -m venv "%VENV_PATH%"
     
     if errorlevel 1 (
         echo Failed to create virtual environment.
@@ -26,7 +26,7 @@ call "%VENV_NAME%\Scripts\activate.bat"
 
 set PYTHON_EXEC=%VENV_PATH%\Scripts\pythonw.exe
 if exist "%PYTHON_EXEC%" (
-    python install_packages_bat.cpython-312.pyc
+    python install_packages_bat.cpython-310.pyc
 ) else (
     echo Python executable not found.
     exit /b 1
