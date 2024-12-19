@@ -36,10 +36,13 @@ Correction time is **2.421s**, and Reading time is **0.214s** per cell.
 
 Hence, we can infer a minimum of $0.214 \times 3528 = 756.226\ s$ or 12.6 min is needed to read through all cells.
 
-### Remarks: 
+### Summary:
+
 - In reality, the 4 groups in each session (male and female, novice & beginner / intermediate & advance) would be calculated separately, so the OCR average time would be 6.27s per archer, which is roughly the same speed as hand calculating with 5 helpers.
 - With exclusion, the accuracy is higher. Average OCR time of 5.50s per archer would equal having 6 helpers.
 - The time of hand calculating each individual scoresheet is relatively constant. Whereas for OCR it deviates significantly between perfectly recognized scoresheets and those that cannot be recognized. Main reason of long calculating time for poorly recognized scoresheets is the need to punch in each individual number cuz the subtotal cells are locked.
+- A faster way would be just checking rows that have a mismatch between predicted and written subtotals. However, accuracy might be impacted.
+- If you just want an empty spreadsheet that does the ranking automatically, upload corresponding number of **empty scoresheets** and just input subtotals or totals into the cells designated for individual score, there is no limit to what number can be inputted.
 
 ## Installation Instruction:
 
@@ -126,7 +129,7 @@ chmod +x run_ocr_LinuxMac.sh
 First time starting, it might take longer than usual as the model need to be loaded. Don't worry if nothing seems to be happening. The window would pop up after at most 1 minute.
 
 ## 4. What to upload
-The User Interface is shown below. Other than ***Scanned Scoresheet***, uploads are optional. If you just want an empty spreadsheet that does the ranking automatically, upload corresponding number of empty scoresheets and just input subtotals or totals into the cells designated for individual score, there is no limit to what number can be inputted.
+The User Interface is shown below. Other than ***Scanned Scoresheet***, uploads are optional. 
 ![OCR Interface](template/ocr_interface.png?raw=true "OCR Interface")
 
 #### A. Scanned Scoresheet
