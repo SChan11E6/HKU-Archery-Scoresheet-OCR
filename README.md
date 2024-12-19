@@ -13,8 +13,8 @@ Total 26 targets * 4 person per target = 104 scoresheets, 3744 cells to fill.
 6 scoresheets are empty (archer absent), so actually 98 scoresheets, 3528 cells.
 
 - Scoresheets that cannot be recognized: 2
-- Wrongly classified cells (excluding scoresheets that cannot be recognized): 658 > Accuracy: 81.35%
-- Wrongly classified cells after excluding impossible digits 1, 2, 3, 4(excluding scoresheets that cannot be recognized): 528 > Accuracy: 85.03%
+- Wrongly classified cells (excluding scoresheets that cannot be recognized): 877 > Accuracy: 76.12%
+- Wrongly classified cells after excluding impossible digits 1, 2, 3, 4(excluding scoresheets that cannot be recognized): 748 > Accuracy: 79.63%
 
 
 ### Speed:
