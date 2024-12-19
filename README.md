@@ -172,13 +172,13 @@ To check, open Terminal or Command Prompt, then run the following command.
 
 #### For Windows
 ```
-py -3.12 --version
+py -3.10 --version
 ```
 #### For Linux/MacOS
 ```
-python3,12 --version
+python3.10 --version
 ```
-If you do not have python 3.12, download it from:
+If you do not have python 3.10, download it from:
 ```
 https://www.python.org/downloads/release/python-31011/
 ```
