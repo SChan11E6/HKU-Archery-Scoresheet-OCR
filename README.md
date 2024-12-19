@@ -43,7 +43,7 @@ Hence, we can infer a minimum of $0.214 \times 3528 = 756.226\ s$ or 12.6 min is
 
 ## Installation Instruction:
 
-Before any installation, please [check](#check-python-version) that your system has python 3.12.
+Before any installation, please [check](#check-python-version) that your system has python 3.10.
 
 1. [Downloading necessary files](#1-download-the-following-files-to-same-folder-location)
 
@@ -180,7 +180,7 @@ python3,12 --version
 ```
 If you do not have python 3.12, download it from:
 ```
-https://www.python.org/downloads/
+https://www.python.org/downloads/release/python-31011/
 ```
 
 ## Open Terminal in file location
@@ -216,12 +216,3 @@ deactivate # exits virtual environment
 ```
 
 ## Known issue
-For MacOS, `opencv-python` cannot be downloaded properly sometime through `install_packages_LinuxMac.sh` because of a module named `distutils` 
-
-To solve this, run
-```
-source archery_ocr/bin/activate # activates virtual environment
-pip3 install setuptools
-pip3 install opencv-python
-deactivate # exits virtual environment
-```
