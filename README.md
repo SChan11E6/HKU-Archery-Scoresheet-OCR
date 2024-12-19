@@ -33,7 +33,9 @@ Assuming the equation:
 
 $$Checking\ time = Reading\ time * 3528 + correction\ time \times num\ of\ wrong$$
 
-Correction time is **2.48s**, and Reading time is **0.214s** per cell. Hence, a minimum of $0.214 \times 3528 = 756.226\ s$ or 12.6 min is needed to read through all cells.
+Correction time is **2.48s**, and Reading time is **0.214s** per cell. 
+
+Hence, we can infer a minimum of $0.214 \times 3528 = 756.226\ s$ or 12.6 min is needed to read through all cells.
 
 Remarks: 
 - In reality, the 4 groups in each session (male and female, novice & beginner / intermediate & advance) would be calculated separately, so the OCR average time would be 6.27s per archer, which is roughly the same speed as hand calculating with 5 helpers.
