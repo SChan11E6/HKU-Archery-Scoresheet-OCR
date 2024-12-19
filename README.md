@@ -26,6 +26,8 @@ Generation: 0:36.60
 Manual Checking without exclusion: 42:52.02 / 26 * 4 archers = 24.731s per individual scoresheet
 Manual Checking with exclusion: 37:32.46 / 26 * 4 archers = 21.658s per individual scoresheet
 
+Assuming the equation:
+$$Checking\ time = Reading\ time\ of\ individual\ cell * 3528 + correction\ time*#\ of\ wrong$$
 
 Remarks: 
 - In reality, the 4 groups in each session (male and female, novice & beginner / intermediate & advance) would be calculated separately, so the OCR average time would be 6.27s per archer, which is roughly the same speed as hand calculating with 5 helpers.
