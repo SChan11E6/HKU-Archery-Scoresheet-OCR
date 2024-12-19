@@ -30,7 +30,7 @@ OCR Calculate:
 
 Assuming the equation:
 
-$$Checking\ time = Reading\ time * 3528 + correction\ time \times num\ of\ wrong$$
+$$Checking\ time = Reading\ time * 3528 + correction\ time * num\ of\ wrong$$
 
 Correction time is **2.421s**, and Reading time is **0.214s** per cell. 
 
