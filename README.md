@@ -38,7 +38,7 @@ Hence, we can infer a minimum of $0.214 \times 3528 = 756.226\ s$ or 12.6 min is
 
 ### Summary:
 
-- In reality, the 4 groups in each session (male and female, novice & beginner / intermediate & advance) would be calculated separately, so the OCR average time would be 6.27s per archer, which is roughly the same speed as hand calculating with 5 helpers.
+- In reality, the 4 groups in each session (male and female, novice & beginner / intermediate & advance) would be calculated separately, so the program should be run on 4 devices, leading to an OCR average time of 6.27s per archer, which is roughly the same speed as hand calculating with 5 helpers.
 - With exclusion, the accuracy is higher. Average OCR time of 5.50s per archer would equal having 6 helpers.
 - The time of hand calculating each individual scoresheet is relatively constant. Whereas for OCR it deviates significantly between perfectly recognized scoresheets and those that cannot be recognized. Main reason of long calculating time for poorly recognized scoresheets is the need to punch in each individual number cuz the subtotal cells are locked.
 - A faster way would be just checking rows that have a mismatch between predicted and written subtotals. However, accuracy might be impacted.
