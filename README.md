@@ -62,17 +62,17 @@ Before any installation, please [check](#check-python-version) that your system 
 ## 1. Download the following files to same folder location
 
 #### For Windows
-- install_packages_bat.cpython-312.pyc
+- install_packages_bat.cpython-310.pyc
 - install_packages_windows.bat
-- ocr.cpython-312.pyc
+- ocr.cpython-310.pyc
 - run_ocr_windows.bat
 - requirements.txt
 - resnet.pt (from Google Drive below)
 
 #### For Linux/MacOS
-- install_packages_bat.cpython-312.pyc
+- install_packages_bat.cpython-310.pyc
 - install_packages_LinuxMac.sh
-- ocr.cpython-312.pyc
+- ocr.cpython-310.pyc
 - run_ocr_LinuxMac.sh
 - requirements.txt
 - resnet.pt (from Google Drive below)
