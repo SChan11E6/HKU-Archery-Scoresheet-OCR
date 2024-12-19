@@ -123,7 +123,7 @@ chmod +x run_ocr_LinuxMac.sh
 ./run_ocr_LinuxMac.sh
 ```
 
-First time starting it might take longer than usual as the model need to be loaded. Don't worry if the nothing seems to be happening. The window would pop up after at most 1 minute.
+First time starting, it might take longer than usual as the model need to be loaded. Don't worry if nothing seems to be happening. The window would pop up after at most 1 minute.
 
 ## 4. What to upload
 The User Interface is shown below. Other than ***Scanned Scoresheet***, uploads are optional. If you just want an empty spreadsheet that does the ranking automatically, upload corresponding number of empty scoresheets and just input subtotals or totals into the cells designated for individual score, there is no limit to what number can be inputted.
