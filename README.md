@@ -13,7 +13,7 @@ Total 26 targets * 4 person per target = 104 scoresheets, 3744 cells to fill.
 
 - Scoresheets that cannot be recognized: 2
 - Wrongly classified cells (excluding scoresheets that cannot be recognized): 661 > **Accuracy: 80.87%**
-- Wrongly classified cells after excluding impossible digits 1, 2, 3, 4(excluding scoresheets that cannot be recognized): 532 > **Accuracy: 84.61%**
+- Wrongly classified cells after excluding impossible digits 1, 2, 3, 4(excluding scoresheets that cannot be recognized): 529 > **Accuracy: 84.69%**
 
 
 ### Speed:
@@ -32,7 +32,7 @@ Assuming the equation:
 
 $$Checking\ time = Reading\ time * 3528 + correction\ time \times num\ of\ wrong$$
 
-Correction time is **2.48s**, and Reading time is **0.214s** per cell. 
+Correction time is **2.421s**, and Reading time is **0.214s** per cell. 
 
 Hence, we can infer a minimum of $0.214 \times 3528 = 756.226\ s$ or 12.6 min is needed to read through all cells.
 
