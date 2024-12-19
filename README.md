@@ -3,14 +3,13 @@ Accelerate score calculation process with AI
 
 ## Performance: 
 
-### Accuracy:
 Sample:
-
-Target Face: 6-Ring
 
 Total 26 targets * 4 person per target = 104 scoresheets, 3744 cells to fill.
 
 6 scoresheets are empty (archer absent), so actually 98 scoresheets, **3528 cells**.
+
+### Accuracy:
 
 - Scoresheets that cannot be recognized: 2
 - Wrongly classified cells (excluding scoresheets that cannot be recognized): 661 > **Accuracy: 80.87%**
