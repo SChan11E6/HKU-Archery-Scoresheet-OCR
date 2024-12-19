@@ -13,15 +13,19 @@ Total 26 targets * 4 person per target = 104 scoresheets, 3744 cells to fill.
 6 scoresheets are empty (archer absent), so actually 98 scoresheets, 3528 cells.
 
 - Scoresheets that cannot be recognized: 2
-- Wrongly classified cells (excluding scoresheets that cannot be recognized): 661 > Accuracy: 82.00%
-- Wrongly classified cells after excluding impossible digits 1, 2, 3, 4(excluding scoresheets that cannot be recognized): 532 > Accuracy: 85.51%
+- Wrongly classified cells (excluding scoresheets that cannot be recognized): 661 > Accuracy: 80.87%
+- Wrongly classified cells after excluding impossible digits 1, 2, 3, 4(excluding scoresheets that cannot be recognized): 532 > Accuracy: 84.61%
 
 
 ### Speed:
 
 Hand Calculate: 53:10.83 / 26 * 4 archers = 30.681s per individual scoresheet
 
-OCR Calculate: (0:36.60 (generate excel time) + 42:52.02 (manual checking)) / 26 * 4 archers = 25.083s per individual scoresheet
+OCR Calculate:
+Generation: 0:36.60
+Manual Checking without exclusion: 42:52.02 / 26 * 4 archers = 24.731s per individual scoresheet
+Manual Checking with exclusion: 37:32.46 / 26 * 4 archers = 21.658s per individual scoresheet
+
 
 Remarks: 
 - In reality, the 4 groups in each session (male and female, novice & beginner / intermediate & advance) would be calculated separately, so the OCR average time would be 6.27s per archer, which is roughly the same speed as hand calculating with 5 helpers.
