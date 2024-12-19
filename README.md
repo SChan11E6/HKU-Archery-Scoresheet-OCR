@@ -22,8 +22,11 @@ Total 26 targets * 4 person per target = 104 scoresheets, 3744 cells to fill.
 Hand Calculate: 53:10.83 / 26 * 4 archers = **30.681s** per individual scoresheet
 
 OCR Calculate:
+
 Generation: 0:36.60
+
 Manual Checking without exclusion: 42:52.02 / 26 * 4 archers = **24.731s** per individual scoresheet
+
 Manual Checking with exclusion: 37:32.46 / 26 * 4 archers = **21.658s** per individual scoresheet
 
 Assuming the equation:
