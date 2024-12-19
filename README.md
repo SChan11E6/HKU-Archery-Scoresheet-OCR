@@ -68,7 +68,9 @@ Download ResNet weighting from
 ```
 https://drive.google.com/file/d/1Hp74gLrOdXNIRWB_PxiqBxdl7QsSaKYi/view?usp=sharing
 ```
-_P.S. If you trained another better model, rename it to <ins>**resnet.pt**</ins> for use in this application. Just make sure the input of your model is consistent with 28 x 28 fed in images._
+_P.S. If you trained another better model, rename it to <ins>**resnet.pt**</ins> for use in this application. Just make sure the input of your model is consistent with 28 x 28 fed in images.
+
+Learn more about how to create model from https://github.com/sejalgupta01/EMNIST-Classification/blob/master/EMNIST_Classification%20(3).ipynb_
 
 ## 2. Install required libraries
 This application would automatically open a virtual environment for installing all required packages and running the OCR application. This step only needs to be done the first time starting the application. From second time onwards, just go from step 3.
