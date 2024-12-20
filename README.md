@@ -15,7 +15,7 @@ Total 26 targets * 4 person per target = 104 scoresheets, 3744 cells to fill.
 - Scoresheets that cannot be recognized: 2
 - Wrongly classified cells (excluding scoresheets that cannot be recognized): 661 ==> **Accuracy: 80.87%**
 - Wrongly classified cells after excluding impossible digits 1, 2, 3, 4(excluding scoresheets that cannot be recognized): 529 ==> **Accuracy: 84.69%**
-
+![Heatmap of Mistakes](template/seaborn_plot.png?raw=true "Heatmap of Mistakes")
 
 ### Speed:
 
