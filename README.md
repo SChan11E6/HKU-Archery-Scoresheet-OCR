@@ -108,7 +108,7 @@ Download interface, click Download.
 ![Download Interface](template/download_package.png?raw=true "Download Interface")
 
 What it looks like when downloading, might take a while.
-
+![Downloading](template/downloading_package.png?raw=true "Downloading")
 
 Finished downloading. Click Close to end application
 ![Finish Download](template/done_package.png?raw=true "Finish Download")
