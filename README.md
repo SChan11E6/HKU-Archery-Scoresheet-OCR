@@ -1,5 +1,6 @@
 # Archery-Scoresheet-OCR
 Accelerate score calculation process with AI
+![Process](template/flow.png?raw=true "Process")
 
 ## Performance: 
 
